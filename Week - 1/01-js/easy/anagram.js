@@ -21,6 +21,7 @@ function isAnagram(str1, str2) {
     }
     ObjStr1[ch] -= 1;
   }
+  return true;
 }
 
 module.exports = isAnagram;
